@@ -1,6 +1,21 @@
-site_name: Mi Proyecto MkDocs
+site_name: Tema 1 - Elementos básicos eléctricos y electrónicos
 theme:
   name: material
   language: es
+
 nav:
   - Inicio: index.md
+  - 1. Conceptos sobre electricidad: Conceptos_electricidad.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
