@@ -1,0 +1,1078 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Conceptos_electricidad/">
+      
+      
+        <link rel="next" href="../Aparatos_medicion/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>2. Componentes electrónicos - Tema 1 - Elementos básicos eléctricos y electrónicos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2-componentes-electronicos" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Tema 1 - Elementos básicos eléctricos y electrónicos" class="md-header__button md-logo" aria-label="Tema 1 - Elementos básicos eléctricos y electrónicos" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Tema 1 - Elementos básicos eléctricos y electrónicos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              2. Componentes electrónicos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Tema 1 - Elementos básicos eléctricos y electrónicos" class="md-nav__button md-logo" aria-label="Tema 1 - Elementos básicos eléctricos y electrónicos" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Tema 1 - Elementos básicos eléctricos y electrónicos
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Conceptos_electricidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1. Conceptos sobre electricidad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    2. Componentes electrónicos
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. Componentes electrónicos
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21-resistencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1. Resistencias 🌀
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Resistencias 🌀">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#codigo-de-colores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código de colores 🎨
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211-resistencias-smd-surface-mount-device" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.1. Resistencias SMD (Surface Mount Device) ⚙️
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-codificacion-eia-96" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.2. Codificación EIA-96 🔢
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-potenciometros" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2. Potenciómetros 🎚️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-condensadores" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3. Condensadores ⚡
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3. Condensadores ⚡">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-condensadores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de condensadores 🔋
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#representacion-en-esquemas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representación en esquemas 📈
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-diodos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4. Diodos 🔺
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-leds" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5. Leds 💡
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26-transistores" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6. Transistores ⚙️
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6. Transistores ⚙️">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#representacion-en-esquemas_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representación en esquemas 📈
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Aparatos_medicion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Aparatos de medición
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Circuitos_integrados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4. Circuitos integrados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#21-resistencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1. Resistencias 🌀
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Resistencias 🌀">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#codigo-de-colores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código de colores 🎨
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211-resistencias-smd-surface-mount-device" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.1. Resistencias SMD (Surface Mount Device) ⚙️
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-codificacion-eia-96" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1.2. Codificación EIA-96 🔢
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-potenciometros" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2. Potenciómetros 🎚️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-condensadores" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3. Condensadores ⚡
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3. Condensadores ⚡">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-condensadores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de condensadores 🔋
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#representacion-en-esquemas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representación en esquemas 📈
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-diodos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4. Diodos 🔺
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-leds" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5. Leds 💡
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26-transistores" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6. Transistores ⚙️
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6. Transistores ⚙️">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#representacion-en-esquemas_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representación en esquemas 📈
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="2-componentes-electronicos">2. Componentes electrónicos ⚡<a class="headerlink" href="#2-componentes-electronicos" title="Permanent link">&para;</a></h1>
+<p>Los <strong>componentes electrónicos</strong> son los elementos que forman los circuitos eléctricos. Cada uno tiene una <strong>función diferente</strong>, como controlar el paso de corriente, almacenar energía o modificar señales.</p>
+<hr />
+<h2 id="21-resistencias">2.1. Resistencias 🌀<a class="headerlink" href="#21-resistencias" title="Permanent link">&para;</a></h2>
+<p>El <strong>componente eléctrico encargado de limitar o reducir la corriente eléctrica</strong> en un circuito se llama <strong>resistencia</strong> o <strong>resistor</strong>. Sirve para <strong>proteger los demás componentes</strong>, controlar la <strong>intensidad</strong> y <strong>dividir tensiones</strong>.</p>
+<hr />
+<h3 id="codigo-de-colores">Código de colores 🎨<a class="headerlink" href="#codigo-de-colores" title="Permanent link">&para;</a></h3>
+<p>Cada resistencia tiene unas <strong>bandas de colores</strong> que indican su valor en ohmios (Ω), su <strong>tolerancia</strong> y, a veces, su <strong>coeficiente térmico</strong> (en resistencias de alta precisión).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Color</th>
+<th style="text-align: left;">Cifra</th>
+<th style="text-align: left;">Multiplicador</th>
+<th style="text-align: left;">Tolerancia</th>
+<th style="text-align: left;">Coef. térmico (ppm/°C)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Negro</strong></td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">×1</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marrón</strong></td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">×10</td>
+<td style="text-align: left;">±1%</td>
+<td style="text-align: left;">100</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Rojo</strong></td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">×100</td>
+<td style="text-align: left;">±2%</td>
+<td style="text-align: left;">50</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Naranja</strong></td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">×1 000</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">15</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Amarillo</strong></td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">×10 000</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">25</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Verde</strong></td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">×100 000</td>
+<td style="text-align: left;">±0,5%</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Azul</strong></td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">×1 000 000</td>
+<td style="text-align: left;">±0,25%</td>
+<td style="text-align: left;">10</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Violeta</strong></td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">×10 000 000</td>
+<td style="text-align: left;">±0,1%</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Gris</strong></td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Blanco</strong></td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Dorado</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">×0,1</td>
+<td style="text-align: left;">±5%</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Plateado</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">×0,01</td>
+<td style="text-align: left;">±10%</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ninguno</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">±20%</td>
+<td style="text-align: left;">—</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">💡 Cómo leer una resistencia</p>
+<ul>
+<li><strong>4 bandas:</strong> 2 cifras + multiplicador + tolerancia  </li>
+<li><strong>5 bandas:</strong> 3 cifras + multiplicador + tolerancia  </li>
+<li><strong>6 bandas:</strong> 3 cifras + multiplicador + tolerancia + coeficiente térmico  </li>
+</ul>
+</div>
+<p align="center">
+  <img src="../Images/resistencias-bandas.png" alt="Tabla de colores y ejemplos de resistencias de 4, 5 y 6 bandas" width="420">
+</p>
+
+<p align="center"><em>Ejemplo de resistencias de 4, 5 y 6 bandas con su respectiva codificación de colores.</em></p>
+
+<div class="admonition example">
+<p class="admonition-title">Ejemplo práctico</p>
+<ul>
+<li><strong>Resistencia de 4 bandas:</strong> Marrón, Rojo, Naranja, Dorado → 12 × 1 000 = <strong>12 000 Ω = 12 kΩ</strong>, tolerancia ±5%.  </li>
+<li><strong>Resistencia de 5 bandas:</strong> Marrón, Rojo, Negro, Rojo, Dorado → 120 × 100 = <strong>12 000 Ω</strong>, tolerancia ±5%.  </li>
+<li><strong>Resistencia de 6 bandas:</strong> Igual que la de 5, pero con una sexta banda que indica el <strong>coeficiente térmico</strong>.</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Representación en esquemas</p>
+<p>En los circuitos eléctricos, la resistencia se representa con este símbolo:</p>
+<p><p align="center">
+  <img src="../Images/simbolo-resistencia.png" alt="Símbolo de resistencia eléctrica en esquemas" width="180">
+</p></p>
+<p><p align="center"><em>Símbolo eléctrico internacional utilizado para representar una resistencia.</em></p></p>
+</div>
+<hr />
+<h3 id="211-resistencias-smd-surface-mount-device">2.1.1. Resistencias SMD (Surface Mount Device) ⚙️<a class="headerlink" href="#211-resistencias-smd-surface-mount-device" title="Permanent link">&para;</a></h3>
+<p>Las <strong>resistencias SMD</strong> son resistencias de <strong>montaje superficial</strong>, utilizadas en placas electrónicas modernas. En lugar de colores, usan <strong>números o letras</strong> impresos directamente sobre su superficie.</p>
+<table>
+<thead>
+<tr>
+<th>Ejemplo</th>
+<th>Explicación</th>
+<th>Valor resultante</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>212</strong></td>
+<td>21 × 10²</td>
+<td><strong>2 100 Ω (2,1 kΩ)</strong></td>
+</tr>
+<tr>
+<td><strong>3R4</strong></td>
+<td>3,4 Ω (la "R" marca la coma decimal)</td>
+<td><strong>3,4 Ω</strong></td>
+</tr>
+<tr>
+<td><strong>R56</strong></td>
+<td>0,56 Ω</td>
+<td><strong>0,56 Ω</strong></td>
+</tr>
+<tr>
+<td><strong>1283</strong></td>
+<td>128 × 10³</td>
+<td><strong>128 000 Ω (128 kΩ)</strong></td>
+</tr>
+</tbody>
+</table>
+<p align="center">
+  <img src="../Images/resistencias-smd.png" alt="Ejemplo de resistencia SMD con código numérico" width="300">
+</p>
+
+<p align="center"><em>Ejemplo real de resistencia SMD con código numérico impreso.</em></p>
+
+<div class="admonition info">
+<p class="admonition-title">📘 Ayuda de vocabulario</p>
+<ul>
+<li><strong>SMD:</strong> <em>Surface Mount Device</em> → <em>Componente de montaje superficial</em>.  </li>
+<li><strong>Ω (Ohm):</strong> unidad de medida de la resistencia.  </li>
+<li><strong>kΩ / MΩ:</strong> kiloohmios / megaohmios (1 000 y 1 000 000 Ω).</li>
+</ul>
+</div>
+<hr />
+<h3 id="212-codificacion-eia-96">2.1.2. Codificación EIA-96 🔢<a class="headerlink" href="#212-codificacion-eia-96" title="Permanent link">&para;</a></h3>
+<p>En resistencias de <strong>alta precisión</strong>, se usa la <strong>codificación EIA-96</strong>, que combina un <strong>número de tres cifras</strong> con una <strong>letra</strong>. Cada número corresponde a un valor base, y la letra indica el multiplicador.</p>
+<p>📍 <strong>Ejemplo:</strong></p>
+<ul>
+<li>Código <strong>01C</strong> → valor base “01” y multiplicador “C”.  </li>
+<li>Según la tabla EIA-96, corresponde a <strong>100 × 100 = 10 000 Ω (10 kΩ)</strong>.</li>
+</ul>
+<p align="center">
+  <img src="../Images/codificacion-eia96.png" alt="Tabla de codificación EIA-96 con ejemplo de resistencia SMD" width="350">
+</p>
+
+<p align="center"><em>Tabla EIA-96: resistencias SMD de precisión con 1% de tolerancia y ejemplo del código 01C.</em></p>
+
+<div class="admonition note">
+<p class="admonition-title">Recuerda</p>
+<ul>
+<li>Cuantas <strong>más bandas</strong> o <strong>más dígitos</strong>, <strong>mayor precisión</strong>.  </li>
+<li>Las <strong>SMD</strong> y <strong>EIA-96</strong> se usan sobre todo en equipos electrónicos modernos por su pequeño tamaño.</li>
+</ul>
+</div>
+<hr />
+<h2 id="22-potenciometros">2.2. Potenciómetros 🎚️<a class="headerlink" href="#22-potenciometros" title="Permanent link">&para;</a></h2>
+<p>Los <strong>potenciómetros</strong> son resistencias especiales cuyo valor <strong>no es fijo</strong>, sino <strong>variable</strong>. Esto significa que pueden <strong>aumentar o disminuir la resistencia</strong> según se gire o desplace su eje.</p>
+<p>Un ejemplo muy común es el <strong>regulador de volumen</strong> de una radio o un altavoz: al girarlo, cambia la resistencia y con ello <strong>la cantidad de corriente que pasa</strong>, controlando así el volumen o la intensidad de luz en una lámpara.</p>
+<p align="center">
+  <img src="../Images/potenciometros.png" alt="Estructura interna y ejemplo de potenciómetro real" width="380">
+</p>
+
+<p align="center"><em>Partes de un potenciómetro y su representación física. Se utiliza en reguladores de volumen, brillo o velocidad.</em></p>
+
+<div class="admonition tip">
+<p class="admonition-title">💡 En resumen</p>
+<ul>
+<li>Un potenciómetro <strong>regula la corriente</strong> mediante una resistencia variable.  </li>
+<li>Se usa en <strong>reguladores de volumen, brillo o velocidad</strong>.  </li>
+<li>Internamente funciona como una resistencia con un contacto móvil que se desliza sobre ella.</li>
+</ul>
+</div>
+<hr />
+<h2 id="23-condensadores">2.3. Condensadores ⚡<a class="headerlink" href="#23-condensadores" title="Permanent link">&para;</a></h2>
+<p>Un <strong>condensador</strong> (también llamado <em>capacitor</em>) es un componente que <strong>almacena corriente eléctrica</strong> durante un breve periodo de tiempo. Su función principal es <strong>acumular y liberar energía eléctrica</strong> cuando se necesita.</p>
+<p>La cantidad de carga que puede almacenar se llama <strong>capacitancia</strong> o <strong>capacidad</strong>, y se mide en <strong>faradios (F)</strong>, aunque normalmente se usan valores más pequeños como <strong>microfaradios (µF)</strong>, <strong>nanofaradios (nF)</strong> o <strong>picofaradios (pF)</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">📘 Código de colores</p>
+<p>Algunos condensadores utilizan un <strong>código de colores</strong> similar al de las resistencias, donde las bandas indican:</p>
+<ul>
+<li><strong>1ª banda:</strong> primer dígito  </li>
+<li><strong>2ª banda:</strong> segundo dígito  </li>
+<li><strong>3ª banda:</strong> multiplicador  </li>
+<li><strong>4ª banda (opcional):</strong> tolerancia  </li>
+<li><strong>5ª banda (opcional):</strong> tensión máxima de trabajo  </li>
+</ul>
+</div>
+<p align="center">
+  <img src="../Images/codigo-colores-condensador.png" alt="Código de colores para identificar el valor de los condensadores" width="430">
+</p>
+
+<p align="center"><em>Ejemplo de código de colores en condensadores, indicando valor, tolerancia y tensión máxima de trabajo.</em></p>
+
+<hr />
+<h3 id="tipos-de-condensadores">Tipos de condensadores 🔋<a class="headerlink" href="#tipos-de-condensadores" title="Permanent link">&para;</a></h3>
+<p>Los condensadores se clasifican según su <strong>material, forma y función</strong>. Los más comunes son:</p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Características</th>
+<th>Ejemplo de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cerámico</strong></td>
+<td>Pequeños, no polarizados. Baratos y precisos.</td>
+<td>Circuitos digitales y osciladores.</td>
+</tr>
+<tr>
+<td><strong>Electrolítico</strong></td>
+<td>Polarizados, mayor capacidad.</td>
+<td>Fuentes de alimentación.</td>
+</tr>
+<tr>
+<td><strong>Tántalo (SMD)</strong></td>
+<td>Estables y compactos, algo más caros.</td>
+<td>Dispositivos portátiles y placas electrónicas.</td>
+</tr>
+<tr>
+<td><strong>Variables</strong></td>
+<td>Permiten ajustar su capacidad.</td>
+<td>Sintonizadores de radio o antenas.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">
+  <img src="../Images/condensadores.png" alt="Ejemplos de condensadores: tántalo, axial y radial" width="420">
+</p>
+
+<p align="center"><em>Condensadores más comunes: de tántalo (SMD), electrolítico axial y electrolítico radial.</em></p>
+
+<hr />
+<h3 id="representacion-en-esquemas">Representación en esquemas 📈<a class="headerlink" href="#representacion-en-esquemas" title="Permanent link">&para;</a></h3>
+<p>El <strong>símbolo del condensador</strong> depende de su tipo:</p>
+<p align="center">
+  <img src="../Images/simbolos-condensadores.png" alt="Símbolos eléctricos de los condensadores" width="330">
+</p>
+
+<p align="center"><em>Símbolos eléctricos de condensadores: no polarizado, electrolítico, variable y ajustable.</em></p>
+
+<div class="admonition info">
+<p class="admonition-title">💬 Vocabulario útil</p>
+<ul>
+<li><strong>Capacitancia / Capacidad:</strong> cantidad de carga que puede almacenar.  </li>
+<li><strong>Polarizado:</strong> tiene un polo positivo (+) y otro negativo (−), como los electrolíticos.  </li>
+<li><strong>No polarizado:</strong> se puede conectar en cualquier sentido.  </li>
+<li><strong>Tolerancia:</strong> margen de error en la capacidad real del condensador.</li>
+</ul>
+</div>
+<hr />
+<h2 id="24-diodos">2.4. Diodos 🔺<a class="headerlink" href="#24-diodos" title="Permanent link">&para;</a></h2>
+<p>Un <strong>diodo</strong> es un <strong>dispositivo semiconductor</strong> que permite el paso de la corriente eléctrica <strong>en una sola dirección</strong> cuando se aplica una diferencia de potencial. Su función principal es <strong>dejar pasar la corriente en un sentido y bloquearla en el contrario</strong>, lo que lo convierte en un componente esencial en los circuitos electrónicos.</p>
+<p>Una de sus aplicaciones más comunes es <strong>transformar la corriente alterna (CA)</strong> en <strong>corriente continua (CC)</strong>, proceso conocido como <strong>rectificación</strong>.</p>
+<p align="center">
+  <img src="../Images/simbolos-diodos.png" alt="Símbolos eléctricos de diferentes tipos de diodos" width="500">
+</p>
+
+<p align="center"><em>Símbolos eléctricos de los principales tipos de diodos: rectificador, Zener, LED, fotodiodo, Schottky, túnel, varicap y láser.</em></p>
+
+<div class="admonition tip">
+<p class="admonition-title">💡 Tipos y usos más comunes</p>
+<ul>
+<li><strong>Diodo rectificador:</strong> convierte la corriente alterna en continua.  </li>
+<li><strong>Diodo Zener:</strong> regula el voltaje en los circuitos.  </li>
+<li><strong>LED (Light Emitting Diode):</strong> emite luz.  </li>
+<li><strong>Fotodiodo:</strong> detecta la luz.  </li>
+<li><strong>Diodo Schottky:</strong> ofrece conmutación rápida y baja caída de tensión.  </li>
+<li><strong>Diodo láser:</strong> genera luz láser en lectores y sensores.</li>
+</ul>
+</div>
+<hr />
+<h2 id="25-leds">2.5. Leds 💡<a class="headerlink" href="#25-leds" title="Permanent link">&para;</a></h2>
+<p>El <strong>LED</strong> (<em>Light-Emitting Diode</em>) o <strong>diodo emisor de luz</strong>, es un tipo especial de diodo que <strong>emite luz</strong> cuando la corriente eléctrica <strong>circula a través de él</strong>. El color de la luz depende del <strong>material semiconductor</strong> utilizado.</p>
+<p>Los <strong>LED</strong> se han vuelto muy populares por su <strong>bajo consumo</strong>, <strong>larga duración</strong> y su uso en <strong>pantallas, iluminación y decoración</strong>.</p>
+<p align="center">
+  <img src="../Images/leds.png" alt="Diodos LED de diferentes formas y colores" width="500">
+</p>
+
+<p align="center"><em>Ejemplos de diodos LED: distintos tamaños, colores y encapsulados.</em></p>
+
+<div class="admonition note">
+<p class="admonition-title">📘 Vocabulario</p>
+<ul>
+<li><strong>LED:</strong> <em>Light-Emitting Diode</em> → diodo emisor de luz.  </li>
+<li><strong>OLED:</strong> <em>Organic Light-Emitting Diode</em> → diodo orgánico.  </li>
+<li><strong>AMOLED:</strong> versión activa usada en pantallas modernas.  </li>
+</ul>
+</div>
+<div class="admonition info">
+<p class="admonition-title">🔆 Tipos de LED</p>
+<ul>
+<li><strong>Estándar:</strong> pequeños, usados en indicadores luminosos.  </li>
+<li><strong>Alta potencia:</strong> para iluminación general.  </li>
+<li><strong>RGB:</strong> combinan rojo, verde y azul para emitir distintos colores.  </li>
+<li><strong>OLED:</strong> diodos orgánicos empleados en pantallas y televisores.</li>
+</ul>
+</div>
+<hr />
+<h2 id="26-transistores">2.6. Transistores ⚙️<a class="headerlink" href="#26-transistores" title="Permanent link">&para;</a></h2>
+<p>Un <strong>transistor</strong> es un <strong>componente semiconductor</strong> que puede <strong>amplificar</strong> o <strong>interrumpir</strong> la corriente eléctrica. Gracias a ellos, fue posible el desarrollo de los <strong>ordenadores personales</strong> y de toda la <strong>electrónica moderna</strong>.</p>
+<p>Existen diferentes tipos de transistores, como los <strong>NPN</strong>, <strong>PNP</strong>, <strong>Darlington</strong> o <strong>MOSFET</strong>, y se utilizan en infinidad de aparatos: radios, teléfonos, ordenadores o televisores.</p>
+<p align="center">
+  <img src="../Images/encapsulados-transistores.png" alt="Ejemplos de encapsulados de transistores" width="450">
+</p>
+
+<p align="center"><em>Ejemplos de encapsulados de transistores: TO-3, TO-18, TO-92, TO-220, DIL y muchos más.</em></p>
+
+<div class="admonition note">
+<p class="admonition-title">🔎 Tipos principales</p>
+<ul>
+<li><strong>NPN y PNP:</strong> los más comunes en electrónica básica.  </li>
+<li><strong>Darlington:</strong> dos transistores unidos para aumentar la ganancia.  </li>
+<li><strong>MOSFET:</strong> usados en circuitos de potencia o control de motores.  </li>
+<li><strong>FET:</strong> controlados por tensión, empleados en amplificadores analógicos.</li>
+</ul>
+</div>
+<hr />
+<h3 id="representacion-en-esquemas_1">Representación en esquemas 📈<a class="headerlink" href="#representacion-en-esquemas_1" title="Permanent link">&para;</a></h3>
+<p align="center">
+  <img src="../Images/simbolo-transistor.png" alt="Símbolo del transistor NPN" width="180">
+</p>
+
+<p align="center"><em>Símbolo eléctrico del transistor NPN, con sus tres terminales: base (B), colector (C) y emisor (E).</em></p>
+
+<div class="admonition tip">
+<p class="admonition-title">💡 Curiosidad</p>
+<p>El <strong>transistor</strong> fue inventado en 1947 por el equipo de <strong>Bell Labs</strong>. Su creación sustituyó las válvulas de vacío, reduciendo el tamaño y consumo de los equipos electrónicos. Hoy, un microprocesador puede contener <strong>millones de transistores</strong> en un solo chip.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
