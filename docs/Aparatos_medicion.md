@@ -33,8 +33,7 @@ El **voltímetro** permite conocer el **voltaje (tensión)** que hay en un circu
 
 ## Amperímetro 🔌
 
-El **amperímetro** se utiliza para **medir la intensidad de corriente** que circula por un circuito.  
-Puede ser **analógico o digital**, y algunos modelos modernos usan **pinzas de gancho**, que permiten medir la corriente **sin necesidad de abrir el circuito**.
+El **amperímetro** se utiliza para **medir la intensidad de corriente** que circula por un circuito. Puede ser **analógico o digital**, y algunos modelos modernos usan **pinzas de gancho**, que permiten medir la corriente **sin necesidad de abrir el circuito**.
 
 <p align="center">
   <img src="../Images/amperimetro.png" alt="Amperímetro digital de gancho" width="300">
@@ -51,8 +50,7 @@ Puede ser **analógico o digital**, y algunos modelos modernos usan **pinzas de 
 
 ## Ohmímetro 🔧
 
-El **ohmímetro**, también llamado **óhmetro**, sirve para **medir la resistencia eléctrica** de un componente o circuito.  
-Incluye una pequeña batería interna que genera una corriente de prueba para determinar el valor de la resistencia.
+El **ohmímetro**, también llamado **óhmetro**, sirve para **medir la resistencia eléctrica** de un componente o circuito. Incluye una pequeña batería interna que genera una corriente de prueba para determinar el valor de la resistencia.
 
 <p align="center">
   <img src="../Images/ohmetro.png" alt="Ohmímetro digital" width="300">
@@ -68,8 +66,7 @@ Incluye una pequeña batería interna que genera una corriente de prueba para de
 
 ## Multímetro (Polímetro) 🔬
 
-El **multímetro**, también conocido como **polímetro** o **tester**, es un aparato **que combina las funciones del voltímetro, amperímetro y ohmímetro** en un solo dispositivo.  
-Permite medir **tensión, corriente y resistencia**, e incluso **frecuencia, temperatura o diodos** en los modelos más avanzados.
+El **multímetro**, también conocido como **polímetro** o **tester**, es un aparato **que combina las funciones del voltímetro, amperímetro y ohmímetro** en un solo dispositivo. Permite medir **tensión, corriente y resistencia**, e incluso **frecuencia, temperatura o diodos** en los modelos más avanzados.
 
 <p align="center">
   <img src="../Images/multimetro.png" alt="Multímetro digital" width="300">
@@ -86,8 +83,7 @@ Permite medir **tensión, corriente y resistencia**, e incluso **frecuencia, tem
 
 ## Osciloscopio 📈
 
-El **osciloscopio** es un instrumento que permite **visualizar gráficamente las señales eléctricas** que circulan por un circuito.  
-Muestra la **forma de onda** de la corriente en una pantalla, lo que ayuda a analizar **frecuencias, picos de tensión** o **fallos** en equipos electrónicos.
+El **osciloscopio** es un instrumento que permite **visualizar gráficamente las señales eléctricas** que circulan por un circuito. Muestra la **forma de onda** de la corriente en una pantalla, lo que ayuda a analizar **frecuencias, picos de tensión** o **fallos** en equipos electrónicos.
 
 <p align="center">
   <img src="../Images/osciloscopio.png" alt="Osciloscopio digital" width="350">
